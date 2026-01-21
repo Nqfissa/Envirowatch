@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Satellite / AI datasets
+unet_dataset/images/*
+unet_dataset/masks/*
+*.tif
+*.SAFE
+*.npy
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and model checkpoints
+logs/
+checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
